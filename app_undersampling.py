@@ -140,7 +140,7 @@ def predict_single(data_pasien: dict):
 
 
 # ── Tabs ────────────────────────────────────────────────────────────────────
-tab1, tab2 = st.tabs(["🔍 Prediksi Pasien", "ℹ️ Panduan Fitur"])
+tab1, tab3 = st.tabs(["🔍 Prediksi Pasien", "ℹ️ Panduan Fitur"])
 
 
 # ════════════════════════════════════════════════════════════════════════════
