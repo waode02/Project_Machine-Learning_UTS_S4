@@ -204,7 +204,7 @@ if page == "🏠 Beranda":
     <div class="main-header">
         <h1>❤️ Klasifikasi Penyakit Jantung</h1>
         <p style="font-size:1.1rem; opacity:0.9;">
-            Berbasis Machine Learning dengan Teknik SMOTE dan Random Undersampling
+            Berbasis Machine Learning dengan Teknik SMOTE 
         </p>
         <p style="opacity:0.75; font-size:0.9rem;">
             SVM · Random Forest · XGBoost
@@ -233,11 +233,10 @@ if page == "🏠 Beranda":
         st.markdown("""
         Proyek ini membangun sistem klasifikasi penyakit jantung menggunakan
         algoritma machine learning dengan menangani masalah **imbalanced data**
-        melalui dua pendekatan:
+        melalui  pendekatan:
 
         - **SMOTE** — Synthetic Minority Over-sampling Technique
-        - **Random Undersampling** — Pengurangan sampel kelas mayoritas
-
+        
         Dataset berasal dari **Kaggle — Heart Disease Prediction** (NHANES 2017–2018)
         dengan distribusi kelas yang sangat tidak seimbang: **90,54% tidak sakit
         vs 9,46% sakit jantung**.
