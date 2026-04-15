@@ -252,7 +252,7 @@ with tab1:
         with col_b:
             st.markdown("🟢 **Tidak Berisiko**")
             st.progress(hasil['prob_negatif'] / 100)
-            st.caption(f"{hasil['prob_negatif']}%"
+            st.caption(f"{hasil['prob_negatif']}%")
 
 
 # ════════════════════════════════════════════════════════════════════════════
